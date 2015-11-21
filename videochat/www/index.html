@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Video Chat</title>
+    </head>
+    <body>
+        <div>
+       
+        
+<table style="width:100%">
+  <tr>
+    <tr>
+    <td>Dialpad</td>
+    <td>
+        <button id="connectButton" disabled>Connect</button>
+        <button id="disconnectButton" disabled>Disconnect</button>
+    </td>
+    </tr>
+    <tr>
+        <td>My Feed</td>
+        <td>
+            <div id="div_me" style="width:200px; height:200px; border:1px solid #ccc;">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Other Feed</td>
+        <td>
+            <div id="div_others" style="width:200px; height:200px; border:1px solid #ccc;">
+            </div>
+        </td>
+    </tr>
+</table>
+
+        </div>
+        <script type="text/javascript" charset="utf-8" src="opentok.js"></script>
+        <script type="text/javascript" src="jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/videochat.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

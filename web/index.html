@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Chat</title>
+        <script src="https://static.opentok.com/v2/js/opentok.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/videochat.js"></script>
+        <script>$(document).ready(function () {initVideoChat();})</script>
+    </head>
+    <body>
+        <div>
+       
+        
+<table style="width:100%">
+  <tr>
+    <tr>
+    <td>Dialpad</td>
+    <td>
+        <button id="connectButton" disabled>Connect</button>
+        <button id="disconnectButton" disabled>Disconnect</button>
+    </td>
+    </tr>
+    <tr>
+        <td>My Feed</td>
+        <td>
+            <div id="div_me" style="width:200px; height:200px; border:1px solid #ccc;">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Other Feed</td>
+        <td>
+            <div id="div_others" style="width:200px; height:200px; border:1px solid #ccc;">
+            </div>
+        </td>
+    </tr>
+</table>
+
+        </div>
+    </body>
+</html>
