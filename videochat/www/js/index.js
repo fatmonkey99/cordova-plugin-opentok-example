@@ -15,6 +15,12 @@ var app = {
     //
     onDeviceReady: function() {
         console.log("Device ready!");
+        try {
+            if (window.device.platform === 'iOS') {
+            }
+        } catch(e) {
+            console.log("Error initializing ios libraries:" + e.message, e)
+        }
         initVideoChat();
     },
 };

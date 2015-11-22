@@ -1,7 +1,7 @@
 // Sign up for an OpenTok API Key at: https://tokbox.com/signup
 // Then generate a sessionId and token at: https://dashboard.tokbox.com
 var apiKey = ""; 
-var sessionId = ""; 
+var sessionId = "";
 var token = "";
 
 var session = null;

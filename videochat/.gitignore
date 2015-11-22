@@ -1,0 +1,3 @@
+platforms/*
+plugins/com.tokbox.cordova.opentok
+plugins/cordova*
